@@ -3,14 +3,9 @@
 
 ## 1. Цель тестирования
 
-При стабильной нагрузке PostgreSQL определить, как тип ОС влияет на производительность базы данных при прочих равных условиях.
-
+При стабильной нагрузке PostgreSQL определить, как тип ОС влияет на производительность базы данных при прочих равных условиях:
 - Windows 11-arm64 Home
 - Ubuntu 24.04.4-live-server-arm64
-
-Метрики:
-- **NOPM** — New Orders Per Minute
-- **TPM** — Transactions Per Minute
 
 ---
 
@@ -19,8 +14,9 @@
 ### Инструменты
 
 **Мониторинг утилизации ресурсов:**
-- Windows: typeperf - мониторинг утилизации ресурсов
-- Linux: dstat - мониторинг утилизации ресурсов
+- Windows: typeperf - мониторинг утилизации ресурсов CPU, memory
+- Linux: dstat - мониторинг утилизации ресурсов CPU, memory
+- Метрики HammerDB: **NOPM** — New Orders Per Minute, **TPM** — Transactions Per Minute
 
 ### Тестовое окружение
 
