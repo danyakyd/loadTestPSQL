@@ -80,10 +80,10 @@
 ## 4. Графики
 
 ### CPU
-Windows:
+Windows:  
 ![CPU Windows](metrics1_win_2cpu_4gb/cpu.png)
 
-Ubuntu:
+Ubuntu:  
 ![CPU Ubuntu](metrics1_ubuntu_2cpu_4gb/cpu.png)
 
 Описание:
@@ -93,10 +93,10 @@ Ubuntu:
 ---
 
 ### Memory
-Windows:
+Windows:  
 ![Memory Windows](metrics1_win_2cpu_4gb/mem.png)
 
-Ubuntu:
+Ubuntu:  
 ![Memory Ubuntu](metrics1_ubuntu_2cpu_4gb/mem.png)
 
 Описание:
